@@ -1,0 +1,322 @@
+body {
+    background: linear-gradient(341deg, #F4E4B8 14.63%, #E6C86C 86.18%);
+}
+
+
+/*Titulos-general*/
+
+.titulo-general {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding: 0 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0px;
+}
+
+.h1-t {
+    margin: 0;
+    font-size: 40px;
+}
+
+.seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    gap: auto;
+    box-sizing: border-box;
+}
+
+.seccion h2 {
+    color: #251301;
+    font-family: "Libre Baskerville";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin:0px 0px 30px 0px;
+}
+
+/*Seccion*/
+.carrousel__productos{
+    margin: 30px 0px 60px 0px;
+}
+
+.carrousel__contenedor {
+    position: relative;
+    margin: 0px auto;
+    width: 90%;
+}
+
+.carrousel__lista {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.carrousel__elemento{
+    user-select: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background: #fff;
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2.5px solid #000;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.4s ease;
+    justify-content: space-between;
+}
+
+.tres_elementos .glider-track {
+    justify-content: center;
+}
+
+.dos_elementos .glider-track {
+    justify-content: center;
+}
+
+.carrousel__elemento img {
+    border-radius: 10px;
+    width: 100%;
+    height: 220px;
+}
+
+.carrousel__elemento h3 {
+    color: #2C2C2C;
+    text-align: center;
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.carrousel__elemento p {
+    color: #333;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin: 0 10px;
+}
+
+.carrousel__elemento .precio {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.arrow__left, .arrow__right {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    top:calc(50% +  27px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: #301902;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.arrow__left{
+    left: -30px;
+}
+
+.arrow__right{
+    right: -30px;
+}
+
+
+@media (max-width: 720px) {
+    .titulo-general {
+        padding: 0 60px;
+        text-align: center;  
+    }
+
+    .seccion h2 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .boton {
+        width: 140px; 
+        font-size: 14px;  
+    }
+
+    .carrousel__elemento {
+        gap: 10px;
+    }
+
+    .carrousel__productos{
+        margin: 30px 0px;
+    }
+
+    .carrousel__contenedor {
+        position: relative;
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    .tres_elementos {
+        margin: 0;
+    }
+
+    .tres_elementos .carrousel__elemento {
+        width: 100%;
+    }
+
+    .carrousel__elemento h3 {
+        font-size: 18px; 
+        letter-spacing: 1.5px;
+        margin: 10px 0 5px 0; 
+    }
+
+    .carrousel__elemento p {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        margin: 0 0 10px 0; 
+    }
+
+    .arrow__left, .arrow__right {
+        position: absolute;
+        display: block;
+        width: 26px; 
+        height: 26px;
+        margin: 5px;
+        line-height: 26px;
+        font-size: 16px; 
+    }
+
+    .arrow__left{
+        left: -25px;
+    }
+
+    .arrow__right{
+        right: -25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .titulo-general {
+        padding: 0 50px;  
+        margin: 40px 0; 
+    }
+
+    .seccion {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .seccion h2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .boton {
+        width: 120px;  
+        font-size: 12px; 
+    }
+
+    .carrousel__productos{
+        margin: 30px 0px;
+    }
+
+    .carrousel__contenedor {
+        position: relative;
+        margin: 0px auto;
+        width: 80%;
+    }
+
+    .carrousel__elemento {
+        padding: 16px;
+        gap: 0;
+    }
+
+    .carrousel__elemento img {
+        height: 180px;
+    }
+
+    .carrousel__elemento h3 {
+        font-size: 18px; 
+        letter-spacing: 1.5px;
+        margin: 10px 0 5px 0; 
+    }
+
+    .carrousel__elemento p {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        margin: 0 0 10px 0;
+         
+    }
+
+    .arrow__left, .arrow__right {
+        position: absolute;
+        display: block;
+        width: 28px; 
+        height: 28px;
+        margin: 5px;
+        line-height: 28px;
+        font-size: 16px; 
+    }
+
+    .arrow__left{
+        left: -30px;
+    }
+
+    .arrow__right{
+        right: -30px;
+    }
+}
+
+@media (min-width: 900px) {
+    .notArrow {
+        display: none;
+    }
+
+    .tres_elementos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dos_elementos {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1040px) {
+    .c3_left {
+        display: none;
+    }
+
+    .c3_right {
+        display: none;
+    }
+
+    .c8_right {
+        display: none;
+    }
+
+    .c8_left {
+        display: none;
+    }
+}

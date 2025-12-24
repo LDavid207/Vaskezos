@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaskezos</title>
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/inicio_styles.css">
+    <link rel="stylesheet" href="estilos/style-whats.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.9/glider.min.css">
+    <script src="https://kit.fontawesome.com/587c2c02d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=51986194351&text=Hola,%20me%20gustaria%20Obtener%20más%20información" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float "></i>
+    </a>
+    <div class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><div class="logo_img"></div></a>
+                <button class="btn-menu" id="btn-menu">
+                    <i class="fa-solid fa-bars icon"></i>
+                </button>
+            </div> 
+            <div class="nav_content">
+                <ul class="nav-links">
+                <li>
+                    <a href="index.html" class="link_primary">
+                        <span class="link_text">INICIO</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="link_primary active" id="dropdownToggle">
+                        <span class="link_text">NUESTROS PRODUCTOS</span>
+                        <span class="dropdown-arrow">&#9662;</span>
+                    </a>
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <a href="quesos.html" class="active">QUESOS</a>
+                        <a href="#yogurt">LÁCTEOS</a>
+                        <a href="#otros">CAFÉS Y EMBUTIDOS</a>
+                        <a href="#otros2">DESPENSA Y BEBIDAS</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="link_primary">
+                        <span class="link_text">CONTACTO</span>
+                    </a>
+                </li>
+            </ul>
+            </div>
+            <button class="order-btn" onclick="window.open('https://api.whatsapp.com/send?phone=51986194351&text=Hola,%20me%20gustaria%20Obtener%20más%20información', '_blank')">
+                Realizar pedido
+            </button>
+        </nav> 
+    </div>
+     <div class="presentation">
+            <div class="tittle">
+                <h1>¡Disfruta de nuestros productos de calidad!</h1>
+                <h3>- Hechos con tradición y pasión -</h3>
+                <button>100% peruanos</button>
+            </div>
+    </div>
+    <div class="nosotros">
+        <img src="./img/img-nosotros.png" alt="Vaskezos">
+        <div>
+            <h2 class="h2-t">NOSOTROS</h2>
+            <p class="p-t">Somos una tienda virtual y física dedicada a promover la tradición de la elaboración de queso artesanal. Trabajamos directamente con pequeños productores de toda las regiones del país, seleccionando cuidadosamente los mejores quesos para ofrecerte una experiencia única de sabor.</p>
+        </div>
+    </div>
+    <div class="procesos">
+        <div class="contenido">
+            <div class="tittle-procesos">
+                <h2 class="h2-t">PROCESOS DE ELABORACIÓN ARTESANAL</h2>
+                <p class="p-t">Descubre cómo creamos nuestros quesos con técnicas tradicionales y amor por el detalle</p>
+            </div>
+            <div class="secuencias">
+                <div class="col-1">
+                    <div class="text">
+                        <h3>Selección de la leche</h3>
+                        <p>Utilizamos leche fresca de alta calidad, proveniente de granjas locales que cumplen con los más altos estándares de higiene, de libre pastoreo y cuidado animal.</p>
+                    </div>
+                    <img src="./img/proc-2.png" alt="">
+                    <div class="text">
+                        <h3>Empaque y Envío</h3>
+                        <p>Todos nuestros quesos son empacados al vacío y con mucho cuidado para así garantizar su frescura hasta la puerta de su hogar.</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                        <div class="circle">1</div>
+                        <div class="line"></div>
+                        <div class="circle">2</div>
+                        <div class="line"></div>
+                        <div class="circle">3</div>
+                </div>
+                <div class="col-1">
+                    <img src="./img/proc-1.png" alt="">
+                    <div class="text">
+                        <h3>Elaboración</h3>
+                        <p>Cada queso se elabora en condiciones controladas, lo que le permite desarrollar su sabor único y su textura característica.</p>
+                    </div>
+                    <img src="./img/proc-3.png" alt="">
+                </div>
+            </div>
+            <button class="boton" type="submit" onclick="window.open('https://api.whatsapp.com/send?phone=51986194351&text=Hola,%20me%20gustaria%20Obtener%20más%20información', '_blank')">Haz tu pedido aquí</button>
+        </div>
+    </div>
+    <div class="productos">
+        <div class="tittle-productos">
+            <div class="text-tittle">
+                <h2 class="h2-t">NUESTROS PRODUCTOS</h2>
+                <p class="p-t">Descubre nuestras deliciosas categorías de productos</p>
+            </div>
+        </div>
+        <div class="carrousel__contenedor">
+            <button class="arrow__left" aria-label="Anterior">
+                <i class="fa fa-chevron-left"></i>
+            </button>
+            <div class="carrousel__lista">
+                <div class="carrousel__elemento">
+                    <img src="./img/Queso_Producto.jpg" alt="">
+                    <h3>QUESOS</h3>
+                    <p>Disfruta de nuestros quesos artesanales, elaborado con los mejores ingredientes 100% peruanos</p>
+                    <button class="boton link_producto"><a href="quesos.html">Ver productos</a></button>
+                </div>
+                <div class="carrousel__elemento">
+                    <img src="./img/derivados-lacteos.png" alt="">
+                    <h3>DERIVADOS LÁCTEOS</h3>
+                    <p>Disfruta de la frescura de nuestros productos lácteos, elaborado con los mejores ingredientes</p>
+                    <button class="boton link_producto"><a href="quesos.html">Ver productos</a></button>
+                </div>
+                <div class="carrousel__elemento">
+                    <img src="./img/cafes.png" alt="">
+                    <h3>CAFÉS</h3>
+                    <p>Despierta tus sentidos con nuestra selección de cafés de origen, tostados para resaltar sus mejores notas</p>
+                    <button class="boton">Ver productos</button>
+                </div>
+                <div class="carrousel__elemento">
+                    <img src="./img/Despensa.jpg" alt="">
+                    <h3>DESPENSA Y BEBIDAS</h3>
+                    <p>Las mejores productos artesanales hechas con frutas naturales, mucho amor y ese sabor casero que conquista paladares</p>
+                    <button class="boton">Ver productos</button>
+                </div>
+            </div>
+            <button class="arrow__right" aria-label="Siguiente">
+                <i class="fa fa-chevron-right"></i> 
+            </button> 
+        </div>    
+    </div>
+    <div class="testimonios">
+        <div class="contenido-t">
+            <div class="text-t">
+                <h2 class="h2-t">TESTIMONIOS</h2>
+                <p class="p-t">Lo que nuestros clientes dicen de nuestros productos</p>
+            </div>
+            <div class="t-personas">
+                <div class="cards-t">
+                    <div class="text-card-t">
+                        <h4>Giovanna Dionicio</h4>
+                        <p>Soy ama de casa y mamá de tres jóvenes. Siempre busco productos frescos y naturales para mi familia, pero encontrar buen queso artesanal en Lima no era fácil. Desde que descubrí este módulo en la panadería, comprar queso de calidad es rápido y conveniente.</p>
+                    </div>
+                    <img src="./img/testimonio-1.png" alt="">
+                </div>
+                <div class="cards-t">
+                    <div class="text-card-t">
+                        <h4>Mayra Ríos</h4>
+                        <p>Soy Mayra, trabajo y tengo dos hijos, así que mi tiempo es muy limitado. Me encanta que ahora puedo pedir queso artesanal por WhatsApp y me lo traen directo a mi trabajo o casa. Es fácil, rápido y siempre fresco. ¡Así mis hijos disfrutan de un lonche delicioso sin complicaciones!</p>
+                    </div>
+                    <img src="./img/testimonio-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacto">
+        <div class="text-contacto">
+            <h2 class="h2-t">CONTÁCTANOS</h2>
+            <p class="p-t">Si deseas obtener información sobre los productos que desee comprar, no dudes en seguir los siguientes pasos:</p>
+        </div>
+        <div class="contenido-contacto">
+            <div class="pasos">
+                <div>
+                    <span class="circle">1</span>
+                    <h5>ELIGE TU PRODUCTO FAVORITO</h5>
+                </div>
+                <div>
+                    <span class="circle">2</span>
+                    <h5>ESCRIBENOS POR WHATSAPP</h5>
+                </div>
+                <div>
+                    <span class="circle">3</span>
+                    <h5>CONFIRMA TU MEDIO DE PAGO</h5>
+                </div>
+                <div>
+                    <span class="circle">4</span>
+                    <h5>CONFIRMA SI DESEA DELIVERY O VISITAR NUESTRO LOCAL</h5>
+                </div>
+                <div>
+                    <span class="circle">5</span>
+                    <h5>¡DISFRUTE DE SU PRODUCTO!</h5>
+                </div>
+            </div>
+            <div class="direccion">
+                <a href="https://www.google.com/maps/place/vasKezos/@-12.0501644,-77.0008576,21z/data=!4m6!3m5!1s0x9105c7c17d8d8fb7:0xb9ef537d7be5b233!8m2!3d-12.050195!4d-77.0007359!16s%2Fg%2F11xyw_sh1l?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="direccion-link">
+                    <img class="img-dir" src="./img/dirección.png" alt="">
+                    <span class="ver-ubicacion">Ver ubicación</span>
+                </a>
+                <div class="t-direccion">
+                    <img src="./img/gif (5) (1).gif" alt="">
+                    <div>
+                        <h5>¡ VISÍTANOS !</h5>
+                        <p>Nuestro local está abierto de lunes a sábado 8:00 a.m - 8:00 p.m</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contenido-footer">
+            <div class="info-footer">
+                <div class="links-footer">
+                    <div class="c-footer">
+                        <h5>Vaskezos</h5>
+                        <p>Quesos artesanales elaborados con pasión y tradición, el sabor auténtico que transforma cada momento en una experiencia especial.</p>
+                        <div class="redes">
+                            <a href="https://www.facebook.com/profile.php?id=61566491828602" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/vaskezos/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@vaskesos?_t=ZS-8zjXj0pNiwU&_r=1" target="_blank">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=51986194351" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="c-footer">
+                        <h5>Explorar</h5>
+                        <div class="l-footer">
+                            <a href="index.html">Inicio</a>
+                            <a href="">Nuestros productos</a>
+                            <a href="">Contacto</a>
+                        </div>
+                    </div>
+                    <div class="c-footer">
+                        <h5>Contacto</h5>
+                        <p>+51 986 194 351</p>
+                        <p>+51 974 822 107</p>
+                    </div>
+                </div>
+                <img src="./img/Qr.png" alt="">
+            </div>
+            <p class="copyright">© Vaskezos 2025. Todos los derechos reservados.</p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/587c2c02d6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.9/glider.min.js"></script>
+    <script src="./scripts/inicio.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
