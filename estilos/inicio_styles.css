@@ -966,6 +966,10 @@
             font-size: 14px;
             width: 140px;
         }
+
+        img {
+            height: 200px;
+        }
     }
 
     /* Testimonio */
