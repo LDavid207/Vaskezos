@@ -22,11 +22,14 @@ document.addEventListener('DOMContentLoaded', function() {
             realActive = dropdownToggle;
         }
         subLinks.forEach(link => {
-            if (link.textContent.trim().toUpperCase() === 'DERIVADOS LÁCTEOS') {
+            if (link.textContent.trim().toUpperCase() === 'QUESOS') {
                 link.classList.add('active');
                 realSubActive = link;
             }
         });
+    } else if (path.endsWith('contacto.html')) {
+        realActive = Array.from(navLinks).find(a => a.textContent.trim().toUpperCase() === 'CONTACTO');
+        if (realActive) realActive.classList.add('active');
     }
 
     navLinks.forEach(link => {
