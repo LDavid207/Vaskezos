@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //Carrousel de productos
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.c1_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -58,7 +58,7 @@ window.addEventListener('load', function() {
     });
 })
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.c2_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -99,7 +99,7 @@ window.addEventListener('load', function() {
     });
 })
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.c3_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -140,7 +140,7 @@ window.addEventListener('load', function() {
     });
 })
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.c4_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -181,7 +181,7 @@ window.addEventListener('load', function() {
     });
 })
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.c5_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -222,7 +222,7 @@ window.addEventListener('load', function() {
     });
 })
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.c6_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -262,7 +262,7 @@ window.addEventListener('load', function() {
     });
 })
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.c7_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -303,7 +303,7 @@ window.addEventListener('load', function() {
     });
 })
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.c8_lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,

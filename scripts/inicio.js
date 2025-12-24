@@ -1,5 +1,5 @@
 // Carrousel 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     new Glider(document.querySelector('.carrousel__lista'), {
         slidesToShow: 1,
         slidesToScroll: 1,
