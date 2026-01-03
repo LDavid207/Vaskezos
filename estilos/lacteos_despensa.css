@@ -1,0 +1,25 @@
+.carrousel__elemento img {
+    height: 320px;
+}
+
+.d4_lista img{
+    height: 260px;
+}
+
+@media (max-width: 440px) {
+    .carrousel__elemento img {
+        height: 270px;
+    }
+}
+
+@media (max-width: 380px) {
+    .carrousel__elemento img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 340px) {
+    .carrousel__elemento img {
+        height: 200px;
+    }
+}

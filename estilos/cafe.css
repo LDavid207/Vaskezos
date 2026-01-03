@@ -1,0 +1,9 @@
+.carrousel__elemento img {
+    height: 320px;
+}
+
+@media (max-width: 500px) {
+    .carrousel__elemento img {
+        height: 260px;
+    }
+}
