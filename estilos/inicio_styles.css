@@ -904,3 +904,9 @@
         line-height: 1.6;
     }
 }
+
+@media (min-width: 900px){
+    .notArrow {
+        display: none;
+    }
+}
