@@ -15,18 +15,20 @@
 .contacto-intro h1 {
     margin: 0;
     font-family: "Libre Baskerville", serif;
-    font-size: 34px;
+    font-size: 36px;
     color: #2C2C2C;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 4.32px;
 }
 
 .contacto-intro p {
     margin: 0;
     font-family: 'Nunito Sans';
     font-size: 24px;
+    font-weight: 400;
     color: #2C2C2C;
     line-height: 1.6;
+    letter-spacing: 2px;
 }
 
 .section-title {
@@ -163,6 +165,7 @@
     font-size: 24px;
     color: #2C2C2C;
     line-height: 1.6;
+    letter-spacing: 1px;
 }
 
 .iframe-wrapper {
@@ -243,6 +246,7 @@
     font-size: 16px;
     color: #2C2C2C;
     line-height: 1.5;
+    letter-spacing: 1.5px;
 }
 
 .metodos-grid {
@@ -328,7 +332,7 @@
     font-size: 20px;
     color: #251301;
     font-weight: 700;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
 }
 
@@ -338,7 +342,11 @@
     font-size: 16px;
     color: #2C2C2C;
     line-height: 1.5;
-    letter-spacing: 0.3px;
+    letter-spacing: 1.5px;
+}
+
+.direccion {
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -385,45 +393,56 @@
 
 @media (max-width: 500px) {
     .contacto {
-        padding: 40px 20px;
-        gap: 40px;
+        padding: 40px 25px;
+        gap: 35px;
     }
 
     .contacto-intro h1 {
-        font-size: 24px;
+        font-size: 28px;
+        letter-spacing: 2px;
     }
 
     .contacto-intro p,
     .formulario-descripcion {
-        font-size: 15px;
+        font-size: 18px;
+        line-height: 1.6;
+        letter-spacing: 1px;
     }
 
     .section-title {
-        font-size: 22px;
+        font-size: 24px;
+        letter-spacing: 1.5px;
     }
 
     .pasos-lista {
-        gap: 25px;
+        gap: 30px;
+    }
+
+    .pasos-compra {
+        padding: 0 10px;
     }
 
     .pasos-lista li {
-        gap: 15px;
+        gap: 20px;
     }
 
     .numero-paso {
         width: 50px;
         height: 50px;
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .pasos-lista h3 {
-        font-size: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
     }
 
     .horario-info {
         flex-direction: column;
         text-align: center;
-        padding: 20px;
+        padding: 25px 20px;
+        gap: 15px;
     }
 
     .horario-texto {
@@ -431,12 +450,15 @@
     }
 
     .horario-texto h3 {
-        font-size: 16px;
+        font-size: 18px;
+        letter-spacing: 1px;
     }
 
     .horario-texto p {
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
     }
 
     .info-card {
@@ -444,20 +466,29 @@
     }
 
     .info-card h3 {
-        font-size: 16px;
+        font-size: 18px;
+        letter-spacing: 0.5px;
     }
 
     .info-card p {
-        font-size: 15px;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
     }
 
     .metodos-grid {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 20px;
     }
 
     .metodo-item {
         min-width: 45%;
+    }
+
+    .metodo-item span {
+        font-size: 14px;
+        letter-spacing: 0.5px;
     }
 
     .icono-metodo {
@@ -466,6 +497,11 @@
     }
 
     .icono-metodo i {
-        font-size: 20px;
+        font-size: 22px;
+    }
+
+    .btn-formulario {
+        font-size: 16px;
+        padding: 12px 30px;
     }
 }
