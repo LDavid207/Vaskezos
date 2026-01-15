@@ -197,3 +197,43 @@ window.addEventListener('DOMContentLoaded', function() {
         ]
     });
 })
+
+window.addEventListener('DOMContentLoaded', function() {
+    new Glider(document.querySelector('.d6_lista'), {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: {
+            prev: '.d6_left',
+            next: '.d6_right'
+        },
+        responsive: [
+        {
+        breakpoint: 500,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+        }
+        },
+        {
+        breakpoint: 700,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+        }
+        },
+        {breakpoint: 900,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+        }
+        },
+        {
+        breakpoint: 1040,
+        settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+        }
+        }
+        ]
+    });
+})
